@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            background: url("https://cdn.pixabay.com/photo/2015/11/08/12/24/jellyfish-1033538_960_720.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            margin: 60px auto;
+            padding:30px;
+            width:400px;
+            height:160px;
+            color:rgb(214, 236, 255);
+            background-color: rgba(162, 236, 255, 60%);
+            border-radius:25px;
+        }
+
+        .business-card img{
+            float:left;
+            border-radius:10px;
+        }
+
+        .download-cv a{
+            color:rgb(215, 255, 188);
+            font-size:18px;
+            text-decoration:none;
+            font-weight: bold;
+        }
+
+
+        .username, .email, .download-cv{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .username span {
+            border-bottom: 1px solid rgb(255, 247, 130);
+            padding-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .email {
+            font-size:15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="">
+            <p class="username">
+                <span>Name Surname</span>
+            </p>
+            <p class="email">
+                <span>example@gmail.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
